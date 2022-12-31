@@ -46,3 +46,28 @@ let questions = [{
     d: "4. <script name='code.js'>",
     correct: "1. <script src='code.js'>",
 }];
+
+let startQuiz = document.getElementById("start");
+let timerEl = document.getElementById("countdown");
+let timeLeft = 60;
+let quizTime;
+
+function timer() {
+    timerEl.textContent = "Time Left: " + timeLeft + " seconds";
+    quizTime = setInterval(function () {
+        if (timeLeft > 0) {
+            adjustTime(-1);
+        } 
+    }, 1000);
+}
+function adjustTime(amount) {
+    timeLeft += amount;
+    if (timeLeft < 0) {
+        timeLeft = 0;
+    }
+    timerEl.textContent = "Time Left: " + timeLeft + " seconds";
+}
+
+startQuiz.onclick = timer;
+
+
