@@ -1,12 +1,9 @@
-
-
-
-
 body {
     text-align: center;
     font-family: Arial, Tahoma, sans-serif;
     background-color: #2B2D42;
     color: #EDF2F4;
+
 }
 
 button {
@@ -14,7 +11,7 @@ button {
     margin: 10px;
     border-radius: 10px;
     background-color: #8D99AE;
-    color: #EDF2F4;
+    color: #2B2D42;
     border: #8D99AE;
 }
 button:hover {
@@ -22,12 +19,28 @@ button:hover {
     color: #2B2D42;
 }
 
+.quiz-container button {
+    justify-content: center;
+    display: flex block;
+    margin: 10px;
+}
+
 strong{
     color: #EF233C;
 }
 
-.centering{
-    
+.center {
+    /* Code borrowed and modified from https://blog.logrocket.com/15-ways-implement-vertical-alignment-css/ */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  border: 3px solid #EDF2F4 ;
+}
+div{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /* My Color Palette
 #2B2D42 -Space Cadet
