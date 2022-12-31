@@ -1,0 +1,38 @@
+
+
+
+
+body {
+    text-align: center;
+    font-family: Arial, Tahoma, sans-serif;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #8D99AE;
+    color: #EDF2F4;
+    border: #8D99AE;
+}
+button:hover {
+    background-color: #EF233C;
+    color: #2B2D42;
+}
+
+strong{
+    color: #EF233C;
+}
+
+.centering{
+    
+}
+/* My Color Palette
+#2B2D42 -Space Cadet
+#8D99AE -Manatee
+#EDF2F4 -Cultured
+#EF233C -Imperial Red
+#D80032 -Crimson
+*/
