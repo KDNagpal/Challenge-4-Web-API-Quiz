@@ -96,7 +96,7 @@ let answerClick = function(event) {
     let answerDetermination = document.querySelector("#answer");
     if (userAnswer !== correctAnswer) {
         adjustTime(-10);
-        answer.textContent = "Wrong!";
+        answer.textContent = "Wrong! Answer: "+ correctAnswer;
         currentQuestionIndex++;
         if (currentQuestionIndex >= questions.length) {
             endQuizPage();
