@@ -16,9 +16,9 @@ A coding quiz that is timed. for each incorrect answer your time is taken away.
 https://kdnagpal.github.io/Challenge-4-Web-API-Quiz/
 
 # Images
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.08.21 PM.png'>
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.08.29 PM.png'>
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.08.42 PM.png'>
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.08.50 PM.png'>
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.09.00 PM.png'>
-<img src='.Assets/Images/Screen Shot 2023-01-02 at 6.09.06 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.08.21 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.08.29 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.08.42 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.08.50 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.09.00 PM.png'>
+<img src='Assets/Images/Screen Shot 2023-01-02 at 6.09.06 PM.png'>
